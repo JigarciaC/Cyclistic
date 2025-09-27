@@ -1,7 +1,7 @@
 # 🚴‍♀️ Cyclistic Bike-Share — Portfolio Project
 
 Este repositorio contiene un análisis comparativo entre usuarios `member` y `casual` del sistema Cyclistic (Chicago).
-Incluye notebook, visualizaciones y artefactos de calidad (resúmenes). El dataset procesado no se incluye completo por tamaño; en su lugar se proporciona un *parquet* compacto y resúmenes.
+Incluye notebook, visualizaciones y artefactos de calidad (resúmenes). El dataset procesado se incluye como release para su descarga.
 
 ## Estructura
 ```

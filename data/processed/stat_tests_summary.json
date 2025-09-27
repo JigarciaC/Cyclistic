@@ -1,0 +1,18 @@
+{
+  "n_rows_total": 5858517,
+  "n_members": 3500469,
+  "n_casuals": 2358048,
+  "ride_length": {
+    "median_member": 8.666666666666666,
+    "median_casual": 12.516666666666667,
+    "median_diff": -3.8500000000000014,
+    "mannwhitney_u_stat": 3727446996.5,
+    "mannwhitney_p": 0.0,
+    "cohens_d_approx": -0.07475062203611703
+  },
+  "rideable_type_chi2": {
+    "chi2": 306676.67948989075,
+    "p": 0.0,
+    "dof": 2
+  }
+}

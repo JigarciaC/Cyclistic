@@ -1,0 +1,31 @@
+{
+  "read_at": "2025-09-27T08:37:15.080484+00:00",
+  "n_rows": 5858517,
+  "n_cols": 24,
+  "columns": [
+    "ride_id",
+    "rideable_type",
+    "started_at",
+    "ended_at",
+    "start_station_name",
+    "start_station_id",
+    "end_station_name",
+    "end_station_id",
+    "start_lat",
+    "start_lng",
+    "end_lat",
+    "end_lng",
+    "member_casual",
+    "ride_length_s",
+    "ride_length_min",
+    "date",
+    "hour_of_day",
+    "day_of_week",
+    "month",
+    "is_weekend",
+    "coords_start_invalid",
+    "coords_end_invalid",
+    "distance_km",
+    "long_trip_flag"
+  ]
+}

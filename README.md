@@ -1,7 +1,7 @@
 # 🚴‍♀️ Cyclistic Bike-Share — Portfolio Project
 
 Este repositorio contiene un análisis comparativo entre usuarios `member` y `casual` del sistema Cyclistic (Chicago).
-Incluye notebook, visualizaciones y artefactos de calidad (resúmenes). El dataset procesado se incluye como release para su descarga.
+Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúmenes). El dataset procesado se incluye como releases para su descarga.
 
 ## Estructura
 ```
@@ -25,4 +25,4 @@ Incluye notebook, visualizaciones y artefactos de calidad (resúmenes). El datas
 - KPIs sugeridos: % conversión a miembros en 3 meses, ocupación por estación, viajes por usuario.
 
 ## Nota sobre datos
-El dataset original proviene de Divvy/ Motivate (public datasets). No subir CSV grandes al repo: usar releases, Git LFS o almacenar en cloud.
+El dataset original proviene de Divvy/ Motivate (public datasets). 

@@ -1,6 +1,6 @@
 # 🚴‍♀️ Cyclistic Bike-Share — Portfolio Project
 
-Este repositorio contiene un análisis comparativo entre usuarios `member` y `casual` del sistema Cyclistic (Chicago).
+Este repositorio contiene un análisis comparativo entre usuarios `member` y `casual` del sistema Cyclistic (Chicago), may 2022 - abr 2023.
 Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúmenes). El dataset procesado se incluye como releases para su descarga.
 
 ## Estructura

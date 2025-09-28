@@ -10,6 +10,7 @@ Este repositorio contiene un análisis comparativo de los patrones de uso de bic
 ```
 ├── Cyclistic_Bike_Share.ipynb
 ├── results_summary.md
+├── dictionary_variables.md
 ├── README.md
 ├── HOW_TO_RUN.md
 ├── requirements.txt

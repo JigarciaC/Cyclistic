@@ -3,10 +3,9 @@
 Este repositorio contiene un análisis comparativo de los patrones de uso de bicicletas entre usuarios `member` y `casual` del sistema Cyclistic (Chicago), una empresa ficticia bike-share.  
 * El objetivo es diseñar estrategias de marketing que permitan convertir `ciclistas ocasionales` en `miembros anuales`, ya que éstos son más rentable.
 * Con base en los datos de viajes de doce meses (may 2022 - abr 2023), el analisis responde a la formulación estratégica: ¿De qué manera los `ciclistas ocasionales` y los `miembros anuales`usan las bicicletas de Cyclistic de manera diferente?.
-* Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúmenes). 
 
 
-## Estructura
+## Incluye
 ```
 ├── Cyclistic_Bike_Share.ipynb
 ├── results_summary.md

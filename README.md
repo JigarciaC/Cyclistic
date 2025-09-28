@@ -26,7 +26,8 @@ Este repositorio contiene un análisis comparativo de los patrones de uso de bic
 * Se detectaron filas con coordenadas inválidas (`start_lat == 0 & start_lng == 0 o end_lat==0 & end_lng==0`) y se etiquetaron como `“coordenadas inválidas”`.
   * Si station_id está presente, conservar y usar station_id;
   * Si tanto sation_id como coordenadas faltan, entonces eliminar.
-* Se **eliminaron registros con NA** en `start_station_name`donde además faltaban filas de `station_id`. 
+* Se **eliminaron registros con NA** en `start_station_name`donde además faltaban filas de `station_id`.
+* Se aplicaron estadísticas descriptivas (moda, mediana) y segmentación exploratoria (clustering K-Medias y pruebas estadísticas de diferencia de medianas)
 
 ## Hallazgos clave
 - `Members`: viajes concentrados en horas laborables y estaciones céntricas.
@@ -37,6 +38,3 @@ Este repositorio contiene un análisis comparativo de los patrones de uso de bic
 - Campañas dirigidas (Commuter Convert, Weekend Explorer, Station-targeted trials).
 - KPIs sugeridos: % conversión a miembros en 3 meses, ocupación por estación, viajes por usuario.
 
-## Nota sobre datos
-El dataset original proviene de Divvy/ Motivate (public datasets), compuesto por 12 archivos CSV con más de 5 millones de filas. 
-El dataset procesado se incluye como `Releases` para su descarga.

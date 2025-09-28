@@ -22,8 +22,11 @@ Este repositorio contiene un análisis comparativo de los patrones de uso de bic
 * El **dataset original** proviene de Divvy/ Motivate (public datasets), compuesto por 12 archivos CSV, históricos, con más de 5 millones de registros. 
 * El **dataset procesado** con python y se incluye como `Releases` para su descarga.
 * El **análisis** se basó en el esquema **Google DA**
-* Se **limpiaron valores atípicos** de tiempo de viaje (ride_length): < 0 ó > 24h.
-* Se **eliminaron registros con NA** en 
+* Se **eliminaron registros** con `started_at` o `ended_at` faltantes o donde `ended_at < started_at` (viajes negativos ó > 24h).
+* Se detectaron filas con coordenadas inválidas (`start_lat == 0 & start_lng == 0 o end_lat==0 & end_lng==0``) y se etiquetaron como ´“coordenadas inválidas”´.
+  * Si station_id está presente, conservar y usar station_id;
+  * Si tanto sation_id como coordenadas faltan, entonces eliminar.
+* Se **eliminaron registros con NA** en `start_station_name`donde además faltaban filas de `station_id`. 
 
 ## Hallazgos clave
 - `Members`: viajes concentrados en horas laborables y estaciones céntricas.

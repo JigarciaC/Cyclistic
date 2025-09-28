@@ -1,7 +1,8 @@
 # 🚴‍♀️ Cyclistic Bike-Share — Portfolio Project
 
-Este repositorio contiene un análisis comparativo entre usuarios `member` y `casual` del sistema Cyclistic (Chicago), may 2022 - abr 2023.
+Este repositorio contiene un análisis comparativo de los patrones de uso de bicicletas entre usuarios `member` y `casual` del sistema Cyclistic (Chicago), una empresa ficticia bike-share, utilizando datos de viajes de doce meses (may 2022 - abr 2023). El objetivo del negocio es diseñar estrategias de marketing para convertir `ciclistas ocasionales` en `miembros anuales`, ya que estos últimos son más rentables. 
 Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúmenes). 
+
 
 ## Estructura
 ```

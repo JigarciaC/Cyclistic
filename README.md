@@ -23,7 +23,7 @@ Este repositorio contiene un análisis comparativo de los patrones de uso de bic
 * El **dataset procesado** con python y se incluye como `Releases` para su descarga.
 * El **análisis** se basó en el esquema **Google DA**
 * Se **eliminaron registros** con `started_at` o `ended_at` faltantes o donde `ended_at < started_at` (viajes negativos ó > 24h).
-* Se detectaron filas con coordenadas inválidas (`start_lat == 0 & start_lng == 0 o end_lat==0 & end_lng==0``) y se etiquetaron como ´“coordenadas inválidas”´.
+* Se detectaron filas con coordenadas inválidas (`start_lat == 0 & start_lng == 0 o end_lat==0 & end_lng==0`) y se etiquetaron como `“coordenadas inválidas”`.
   * Si station_id está presente, conservar y usar station_id;
   * Si tanto sation_id como coordenadas faltan, entonces eliminar.
 * Se **eliminaron registros con NA** en `start_station_name`donde además faltaban filas de `station_id`. 

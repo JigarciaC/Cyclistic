@@ -19,10 +19,11 @@ Este repositorio contiene un análisis comparativo de los patrones de uso de bic
 ```
 
 ## Datos y metodología
-El dataset original proviene de Divvy/ Motivate (public datasets), compuesto por 12 archivos CSV, históricos, con más de 5 millones de registros. 
-El dataset procesado se incluye como `Releases` para su descarga.
-El análisis se basó en el esquema de Análisis de Datos de Google (Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar)
-Se utilizó el lenguaje python. Se limpiaron valores atípicos de tiempo de viaje (ride_length) que eran negativos o extremos (viajes mayores a 9900 segundos). Además, se eliminaron registros con valores nulos en variables esenciales como los nombres de las estaciones de inicio y fin.
+* El **dataset original** proviene de Divvy/ Motivate (public datasets), compuesto por 12 archivos CSV, históricos, con más de 5 millones de registros. 
+* El **dataset procesado** con python y se incluye como `Releases` para su descarga.
+* El **análisis** se basó en el esquema **Google DA**
+* Se **limpiaron valores atípicos** de tiempo de viaje (ride_length): < 0 ó > 24h.
+* Se **eliminaron registros con NA** en 
 
 ## Hallazgos clave
 - `Members`: viajes concentrados en horas laborables y estaciones céntricas.

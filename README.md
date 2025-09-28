@@ -1,7 +1,7 @@
 # 🚴‍♀️ Cyclistic Bike-Share — Portfolio Project
 
 Este repositorio contiene un análisis comparativo entre usuarios `member` y `casual` del sistema Cyclistic (Chicago), may 2022 - abr 2023.
-Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúmenes). El dataset procesado se incluye como releases para su descarga.
+Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúmenes). 
 
 ## Estructura
 ```
@@ -16,8 +16,8 @@ Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúme
 ```
 
 ## Hallazgos clave
-- Members: viajes concentrados en horas laborables y estaciones céntricas.
-- Casuals: picos en fines de semana y zonas turísticas.
+- `Members`: viajes concentrados en horas laborables y estaciones céntricas.
+- `Casuals`: picos en fines de semana y zonas turísticas.
 - Se identificaron 3 clusters de uso (commuters, recreativos, mixtos) útiles para campañas de conversión.
 
 ## Recomendaciones
@@ -26,3 +26,4 @@ Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúme
 
 ## Nota sobre datos
 El dataset original proviene de Divvy/ Motivate (public datasets). 
+El dataset procesado se incluye como `Releases` para su descarga.

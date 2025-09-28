@@ -30,7 +30,7 @@ _Auto-generado: 2025-09-27T09:59:27.573709 UTC_
 |         1 |           9.97839 |       17.7004 |       1.53874 |
 |         2 |          36.057   |       14.6167 |       4.88916 |
 
-- Artefacto completo: `data/processed/cluster_centers.csv`
+- Objeto completo: `data/processed/cluster_centers.csv`
 - Muestra etiquetada: `data/processed/cluster_sample_with_labels.csv.gz`
 
 ## 5. Heatmaps y top-stations

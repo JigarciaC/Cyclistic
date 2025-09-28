@@ -1,8 +1,8 @@
 # 🚴‍♀️ Cyclistic Bike-Share — Portfolio Project
 
 Este repositorio contiene un análisis comparativo de los patrones de uso de bicicletas entre usuarios `member` y `casual` del sistema Cyclistic (Chicago), una empresa ficticia bike-share.  
-El objetivo del negocio es diseñar estrategias de marketing que permitan convertir `ciclistas ocasionales` en `miembros anuales`, ya que éstos son más rentable, con base en los datos de viajes de doce meses (may 2022 - abr 2023).
-El analisis se centró en conocer: ¿De qué manera los `ciclistas ocasionales` y los `miembros anuales`usan las bicicletas de Cyclistic de manera diferente?. 
+El objetivo es diseñar estrategias de marketing que permitan convertir `ciclistas ocasionales` en `miembros anuales`, ya que éstos son más rentable.
+Con base en los datos de viajes de doce meses (may 2022 - abr 2023), el analisis responde a la formulación estratégica: ¿De qué manera los `ciclistas ocasionales` y los `miembros anuales`usan las bicicletas de Cyclistic de manera diferente?. 
 Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúmenes). 
 
 
@@ -18,6 +18,12 @@ Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúme
 └── data/processed/
 ```
 
+## Datos y metodología
+El dataset original proviene de Divvy/ Motivate (public datasets), compuesto por 12 archivos CSV, históricos, con más de 5 millones de registros. 
+El dataset procesado se incluye como `Releases` para su descarga.
+El análisis se basó en el esquema de Análisis de Datos de Google (Preguntar, Preparar, Procesar, Analizar, Compartir y Actuar)
+Se utilizó el lenguaje python. Se limpiaron valores atípicos de tiempo de viaje (ride_length) que eran negativos o extremos (viajes mayores a 9900 segundos). Además, se eliminaron registros con valores nulos en variables esenciales como los nombres de las estaciones de inicio y fin.
+
 ## Hallazgos clave
 - `Members`: viajes concentrados en horas laborables y estaciones céntricas.
 - `Casuals`: picos en fines de semana y zonas turísticas.
@@ -28,5 +34,5 @@ Incluye notebook, visualizaciones y objetos de procesamientos y calidad (resúme
 - KPIs sugeridos: % conversión a miembros en 3 meses, ocupación por estación, viajes por usuario.
 
 ## Nota sobre datos
-El dataset original proviene de Divvy/ Motivate (public datasets). 
+El dataset original proviene de Divvy/ Motivate (public datasets), compuesto por 12 archivos CSV con más de 5 millones de filas. 
 El dataset procesado se incluye como `Releases` para su descarga.

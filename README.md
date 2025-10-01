@@ -30,8 +30,8 @@ Este repositorio contiene un análisis comparativo de los patrones de uso de bic
 * Se aplicaron estadísticas descriptivas (moda, mediana) y segmentación exploratoria (clustering K-Medias y pruebas estadísticas de diferencia de medianas)
 
 ## Hallazgos clave
-- `Members`: viajes concentrados en horas laborables y estaciones céntricas.
-- `Casuals`: picos en fines de semana y zonas turísticas.
+- `Members`: viajes concentrados en horas laborables y estaciones céntricas.[heatmap_day_hour_member.png](graphs/heatmap_day_hour_member.png)
+- `Casuals`: picos en fines de semana y zonas turísticas.[heatmap_day_hour_casual.png](graphs/heatmap_day_hour_casual.png)
 - Se identificaron 3 clusters de uso (commuters, recreativos, mixtos) útiles para campañas de conversión.
 
 ## Recomendaciones

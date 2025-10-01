@@ -15,7 +15,7 @@ _Auto-generado: 2025-09-27T09:59:27.573709 UTC_
 - Tamaño del efecto (Cohen's d aprox): **-0.07475062203611703**
 
 **Evidencia visual:**
-- Histograma (log y): graphs/dist_ride_length_logy.png
+- [Histograma (log y)](graphs/dist_ride_length_logy.png)
 
 ## 3. Rideable type vs member/casual
 - Chi2 = **306676.67948989075**, p = **0.0**, dof = **2**

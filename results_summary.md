@@ -34,7 +34,7 @@ _Auto-generado: 2025-09-27T09:59:27.573709 UTC_
 - Muestra etiquetada: `data/processed/cluster_sample_with_labels.csv.gz`
 
 ## 5. Heatmaps y top-stations
-- heatmap_day_hour_member.png: `graphs/heatmap_day_hour_member.png`
+- [heatmap_day_hour_member.png](graphs/heatmap_day_hour_member.png)
 - heatmap_day_hour_casual.png: `graphs/heatmap_day_hour_casual.png`
 - top10_start_member.png: `graphs/top10_start_member.png`
 - top10_start_casual.png: `graphs/top10_start_casual.png`

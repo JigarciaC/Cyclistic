@@ -29,24 +29,28 @@ Business question & stakeholders
 ├── results_summary.md
 
 ```
+## Resumen ejecutivo
+Analizamos el comportamiento de uso de Cyclistic (bicicletas compartidas de Chicago) para entender **cómo difieren los ciclistas ocasionales y los miembros anuales**, con foco en diseñar tácticas de marketing para convertir ocasionales en miembros.
 
-## Datos y metodología
-* El **dataset original** proviene de Divvy/ Motivate (public datasets), compuesto por 12 archivos CSV, históricos, con más de 5 millones de registros. 
-* El **dataset procesado** con python y se incluye como `Releases` para su descarga.
-* El **análisis** se basó en el esquema **Google DA**
-* Se **eliminaron registros** con `started_at` o `ended_at` faltantes o donde `ended_at < started_at` (viajes negativos ó > 24h).
-* Se detectaron filas con coordenadas inválidas (`start_lat == 0 & start_lng == 0 o end_lat==0 & end_lng==0`) y se etiquetaron como `“coordenadas inválidas”`.
-  * Si station_id está presente, conservar y usar station_id;
-  * Si tanto sation_id como coordenadas faltan, entonces eliminar.
-* Se **eliminaron registros con NA** en `start_station_name`donde además faltaban filas de `station_id`.
-* Se aplicaron estadísticas descriptivas (moda, mediana) y segmentación exploratoria (clustering K-Medias y pruebas estadísticas de diferencia de medianas)
+**Hallazgos clave**
+- Dataset combinado (12 meses): **≈ 5.85M** viajes (raw), proviene de Divvy/ Motivate (public datasets) 
+- Dataset limpio / station-backed sample usado en reportes: **n ≈ 49,344** (ejemplo de muestra con estaciones asignadas).
+- El **análisis** se basó en el esquema **Google DA**
+- Proporción en la muestra: **Miembros ≈ 30,601 (≈62%) ; Ocasionales ≈ 18,742 (≈38%)**.  
+- Duración media/mediana:
+  - Mediana (member): **≈ 8.666 min**  
+  - Mediana (casual): **≈ 12.5 min**  
+  - Mann-Whitney U: **U ≈ 3,290,524,717.0 p = 0.00 ** (diferencia significativa).
+- Asociación entre `rideable_type` y `member_casual`: **chi2 ≈ 306676,679, p = 0.000**.
+- Segmentación (KMeans) identificó clusters interpretables (commuters, after-work, leisure), cuyos centros están en `data/processed/cluster_centers.csv`.
 
-## Hallazgos clave
+## Hallazgos visuales
 - `Members`: viajes concentrados en [horas laborables](graphs/heatmap_day_hour_member.png) y [estaciones céntricas](graphs/top10_start_member.png).
 - `Casuals`: [picos en fines de semana](graphs/heatmap_day_hour_casual.png) y [zonas turísticas](graphs/top10_start_casual.png).
 - Se identificaron [3 clusters de uso](data/processed/cluster_centers.csv) (commuters, recreativos, mixtos) útiles para campañas de conversión.
 
-## Recomendaciones
-- Campañas dirigidas (Commuter Convert, Weekend Explorer, Station-targeted trials).
-- KPIs sugeridos: % conversión a miembros en 3 meses, ocupación por estación, viajes por usuario.
+**Recomendaciones (resumen)**
+- **Commuter Convert:** campañas dirigidas a ocasionales con patrones de hora punta (trial/membresía reducida); KPI: % conversión en 3 meses.  
+- **Weekend Explorer:** targeting a ocasionales con picos fines de semana y alta duración; oferta: trial fines de semana.  
+- **Station-targeted trials:** campañas geolocalizadas en estaciones con alta densidad de ocasionales.
 

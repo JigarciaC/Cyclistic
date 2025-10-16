@@ -3,9 +3,10 @@
 Proyecto: Análisis comparativo de los patrones de uso de bicicletas entre `miembros anuales` y `ciclistas ocasionales` del sistema Cyclistic (Chicago), una empresa ficticia bike-share (May 2022 — Apr 2023)
 * El objetivo es identificar diferencias de uso entre `member` y `casual` para proponer campañas de conversión de casual → member.
 Business question & stakeholders
-Pregunta de negocio: ¿De qué manera los ciclistas ocasionales y los miembros anuales usan las bicicletas de Cyclistic de manera diferente?
-Stakeholders: Directora de Marketing, Equipo de Marketing, Equipo Ejecutivo.
-Objetivo final: Generar recomendaciones accionables para convertir casuals a miembros anuales (KPI propuesto: % conversión en 3 meses).
+
+* Pregunta de negocio: ¿De qué manera los ciclistas ocasionales y los miembros anuales usan las bicicletas de Cyclistic de manera diferente?
+* Stakeholders: Directora de Marketing, Equipo de Marketing, Equipo Ejecutivo.
+* Objetivo final: Generar recomendaciones accionables para convertir casuals a miembros anuales (KPI propuesto: % conversión en 3 meses).
 
 
 ## Incluye

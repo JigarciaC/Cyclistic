@@ -1,7 +1,11 @@
 pandas
 numpy
-scipy
 matplotlib
 seaborn
 scikit-learn
 pyarrow
+duckdb
+fastparquet
+scipy
+notebook
+jupyterlab

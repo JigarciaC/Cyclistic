@@ -13,15 +13,12 @@
 ## Incluye
 ```
 ├─ data/ processed/ # OBJETOS: csv pequeños, logs, snapshots, parquet
-│ ├─ cyclistic_trips_clean_imputed_v2_tagged.parquet
-│ ├─ cyclistic_trips_station_backed.snappy.parquet
-│ ├─ imputation_log_v2.csv
 │ ├─ imputation_validation_rows.csv
 │ ├─ audit_validation_summary.csv
 │ └─ first_rows.csv / sample_100.csv / station_coord_lookup.csv
 ├─ cyclistic_trips_clean # fuente en release
 ├─ graphs/ 
-├─ Cyclistic_Bike_Share.ipynb/ # report_and_results
+├─ Cyclistic_Bike_Share.ipynb/ # Notebook report_and_results
 ├─ dictionary_variables.md
 ├─ .gitignore
 ├─ README.md

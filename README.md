@@ -5,7 +5,7 @@
 ## Objetivo:
   Identificar diferencias de uso entre `member` y `casual` para proponer campañas de conversión de casual → member.
 
-## Business question & stakeholders
+## Pregunta de negocio & interesados
 * Pregunta de negocio: ¿De qué manera los ciclistas ocasionales y los miembros anuales usan las bicicletas de Cyclistic de manera diferente?
 * Stakeholders: Directora de Marketing, Equipo de Marketing, Equipo Ejecutivo.
 

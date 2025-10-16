@@ -1,21 +1,32 @@
 # 🚴‍♀️ Cyclistic Bike-Share — Portfolio Project
 
-Este repositorio contiene un análisis comparativo de los patrones de uso de bicicletas entre usuarios `member` y `casual` del sistema Cyclistic (Chicago), una empresa ficticia bike-share.  
-* El objetivo es diseñar estrategias de marketing que permitan convertir `ciclistas ocasionales` en `miembros anuales`, ya que éstos son más rentable.
-* Con base en los datos de viajes de doce meses (may 2022 - abr 2023), el analisis responde a la formulación estratégica: ¿De qué manera los `ciclistas ocasionales` y los `miembros anuales`usan las bicicletas de Cyclistic de manera diferente?.
+Proyecto: Análisis comparativo de los patrones de uso de bicicletas entre `miembros anuales` y `ciclistas ocasionales` del sistema Cyclistic (Chicago), una empresa ficticia bike-share (May 2022 — Apr 2023)
+* El objetivo es identificar diferencias de uso entre `member` y `casual` para proponer campañas de conversión de casual → member.
+Business question & stakeholders
+Pregunta de negocio: ¿De qué manera los ciclistas ocasionales y los miembros anuales usan las bicicletas de Cyclistic de manera diferente?
+Stakeholders: Directora de Marketing, Equipo de Marketing, Equipo Ejecutivo.
+Objetivo final: Generar recomendaciones accionables para convertir casuals a miembros anuales (KPI propuesto: % conversión en 3 meses).
 
 
 ## Incluye
 ```
-├── Cyclistic_Bike_Share.ipynb
-├── results_summary.md
-├── dictionary_variables.md
-├── README.md
-├── HOW_TO_RUN.md
-├── requirements.txt
+├─ data/ processed/ # OBJETOS: csv pequeños, logs, snapshots, parquet
+│ ├─ cyclistic_trips_clean.snappy.parquet # fuente 
+│ ├─ cyclistic_trips_clean_imputed_v2_tagged.parquet
+│ ├─ cyclistic_trips_station_backed.snappy.parquet
+│ ├─ imputation_log_v2.csv
+│ ├─ imputation_validation_rows.csv
+│ ├─ audit_validation_summary.csv
+│ └─ first_rows.csv / sample_100.csv / station_coord_lookup.csv
+├─ graphs/ 
+├─ Cyclistic_Bike_Share.ipynb/ # report_and_results
+├─ dictionary_variables.md
 ├── .gitignore
-├── graphs/
-└── data/processed/
+├─ README.md
+├─ HOW_TO_RUN.md
+└─ requirements.txt
+├── results_summary.md
+
 ```
 
 ## Datos y metodología

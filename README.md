@@ -49,7 +49,7 @@ Analizamos el comportamiento de uso de Cyclistic (bicicletas compartidas de Chic
 - `Casuals`: [picos en fines de semana](graphs/heatmap_day_hour_casual.png) y [zonas turísticas](graphs/top10_start_casual.png).
 - Se identificaron [3 clusters de uso](data/processed/cluster_centers.csv) (commuters, recreativos, mixtos) útiles para campañas de conversión.
 
-**Recomendaciones (resumen)**
+## Recomendaciones (resumen)
 - **Commuter Convert:** campañas dirigidas a ocasionales con patrones de hora punta (trial/membresía reducida); KPI: % conversión en 3 meses.  
 - **Weekend Explorer:** targeting a ocasionales con picos fines de semana y alta duración; oferta: trial fines de semana.  
 - **Station-targeted trials:** campañas geolocalizadas en estaciones con alta densidad de ocasionales.

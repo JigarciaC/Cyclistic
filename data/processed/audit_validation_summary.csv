@@ -1,0 +1,2 @@
+imputation_method,n_rows,median_nearest_m,pct_within_25m,pct_within_50m,pct_within_100m,pct_ambiguous
+nearest_100m,498704,3.764,54.079,64.437,100.0,18.87
